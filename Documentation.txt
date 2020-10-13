@@ -1,0 +1,66 @@
+Variables
+--------------
+Declare Variables using var, const, let
+e.g., var general, sum;
+console.log(typeof varname);
+
+
+Data Types
+--------------
+int, float, string, boolean, array, object, special datatypes
+int
+var num = 1;
+
+float
+var salary = 25800.58;
+
+string
+var str = "Chinmay";
+str.length gives the length of the string
+
+boolean
+var res = true;
+
+Arrays
+var space = ["moon", "earth", "sun"];
+indexing starts with 0
+
+Accessing the array 
+console.log(space[0]);
+length of array
+space.length
+
+Type Conversions
+ + is overloaded
+if either left or right operands is a string then the result is a string.
+
+var num = 5;
+var result = num + "5";
+console.log(result + typeof result);
+
+parseInt() and parseFloat()
+var num = prompt("Enter some value");
+console.log(typeof num);
+console.log(parseInt(num) + 9);
+
+
+Operators
+----------------
+
+Arithmatic +,-,*,/, %(modulus)
+
+Increment and Decrement Operators ++ ,--
+
+
+String Operators  +
+
+Assignment Operators :-  =, +=, -=, *=, /=, %=
+
+Comparison Operators :- ==, !=, <, >, <=, >=,
+=== same value and datatype
+!== not equal and not same datatype
+
+Boolean Operators && : AND, ||: OR , !: NOT
+
+Ternary Operators
+var res = Condition? do something : do something
