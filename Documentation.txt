@@ -150,4 +150,26 @@ cons(params);
     do something
 })();
 
+Memory Management
+---------------------
 
+object creation
+var person = new Object();
+person.name = "Chinmay";
+person['lastname'] = "Gokhale";
+person.talk = function (){ //do something};
+
+
+var person = {};
+//another name
+
+Functions Constructors
+-----------------------
+function Person(name, age){
+    this.name = name;
+    this.age = age;
+}
+
+var person = new Person("Chinmay", 22);
+
+Refer vidoes for prototypal inheritance from Coursera
