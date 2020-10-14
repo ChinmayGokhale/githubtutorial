@@ -117,7 +117,37 @@ do{
 
 }while(Condition);
 
+functions
+---------------
 
+function name(params){
 
+    //do something
+    return statement;
+}
+
+Types of functions
+1. Named Functions
+2. Anonymous functions
+3. Self Invoking --IIFE
+4. Constructors
+
+function name(params){
+    do something
+    return
+}
+
+var fnname = function (params){
+    do something
+    return;
+}
+
+var cons = new Function(params, return statement);
+cons(params);
+
+(function name(params){
+    //this is a self invoking function
+    do something
+})();
 
 
