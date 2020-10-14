@@ -64,3 +64,60 @@ Boolean Operators && : AND, ||: OR , !: NOT
 
 Ternary Operators
 var res = Condition? do something : do something
+
+Conditions
+------------
+if(Condition){
+    //do something
+}
+
+
+if(Condition){
+//do something
+}
+else{
+    //do something
+}
+
+if(Condition){
+    do something
+}
+else if(Condition){
+    do something
+}
+
+Switch(height){
+    case 5.5:
+    //do something
+    break;
+    case 6.5:
+    //do something
+    break;
+    default:
+    // do the default thing
+}
+
+Looping
+-------------
+for loop
+for(var i; i< space.length;i++){
+    //do something
+}
+
+for(i in space ){
+    //do something
+}
+
+while(Condition){
+    //do something
+
+}
+
+do{
+
+}while(Condition);
+
+
+
+
+
